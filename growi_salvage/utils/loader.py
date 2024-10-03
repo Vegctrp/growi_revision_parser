@@ -2,8 +2,8 @@
 import json
 from pathlib import Path
 
-from growi_salvage.dataclass import GrowiRevisionData
-from growi_salvage.logger import get_logger
+from growi_salvage.utils.dataclass import GrowiRevisionData
+from growi_salvage.utils.logger import get_logger
 
 logger = get_logger(name=__name__, level=10)
 DEFAULT_PATH = Path("./data/revisions-sample.json")

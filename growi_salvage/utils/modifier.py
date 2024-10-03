@@ -1,5 +1,5 @@
 """modifier modules."""
-from growi_salvage.dataclass import GrowiRevisionData
+from growi_salvage.utils.dataclass import GrowiRevisionData
 
 
 def get_newest_revision_per_path(
