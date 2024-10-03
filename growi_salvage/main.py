@@ -23,3 +23,4 @@ def main(revisions_json_path: str, output_dir: str) -> None:
 
 if __name__ == "__main__":
     main("./data/revisions.json", "./data/out")
+    main("./data/revisions-sample.json", "./data/out-sample")
